@@ -1,18 +1,11 @@
-import { EditNoteModalProps } from "@/types/notemodal";
+// import { EditNoteModalProps } from "@/types/notemodal";
 import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 import React from 'react';
 import { Modal, ScrollView, Text, TextInput, TouchableOpacity, View } from 'react-native';
 
 export default function EditNoteModal({
-    visible,
-    onClose,
-    onUpdate,
-    onDelete,
-    title,
-    description,
-    onTitleChange,
-    onDescriptionChange
-}: EditNoteModalProps) {
+
+}) {
     return (
         <Modal
             visible={visible}
